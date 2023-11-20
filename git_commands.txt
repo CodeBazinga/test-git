@@ -1,0 +1,25 @@
+
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+# Setup name and email (One time opertion)
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@gmail.com
+
+# Check if name and email are updated
+git config --list
+
+
+# Commands to push files to git repo
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CodeBazinga/Git-demo.git
+git push -u origin main
+
+
+# To make any changes(insertion,updation,deletion) reflect in github repo
+git add -A
+git commit -m "commit"
+git push
