@@ -1,3 +1,3 @@
 Hello world
-Understanding git commands
 Making changes to the files/folders
+Adding more changes
